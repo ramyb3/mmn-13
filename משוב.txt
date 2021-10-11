@@ -1,29 +1,45 @@
-äòøåú îî"ï 13- øîé
-RailwayStation tester started.
+×”×¢×¨×•×ª ××"×Ÿ 13- ×¨××™
+RailwayStation tester started.
+
 ----------------------------------------
 
-
-Check RailwayStation constructor started.
-Check constructor finished.
 
-Check addTrain started.
-Check addTrain finished.
 
-Check removeTrain started.
-Check removeTrain finished.
+Check RailwayStation constructor started.
 
-Check firstDepartureToDestination started.
-Check firstDepartureToDestination finished.
+Check constructor finished.
 
-Check howManyFullTrains started.
-Check howManyFullTrains finished.
 
-Check mostPopularDestination started.
-Check mostPopularDestination finished.
+Check addTrain started.
 
-Check mostExpensiveTicket started.
+Check addTrain finished.
 
-Error18_2:mostExpensiveTicket failed - aliasing:-4
+
+Check removeTrain started.
+
+Check removeTrain finished.
+
+
+Check firstDepartureToDestination started.
+
+Check firstDepartureToDestination finished.
+
+
+Check howManyFullTrains started.
+
+Check howManyFullTrains finished.
+
+
+Check mostPopularDestination started.
+
+Check mostPopularDestination finished.
+
+
+Check mostExpensiveTicket started.
+
+
+Error18_2:mostExpensiveTicket failed - aliasing:-4
+
 Original input is:
 Train f1 = new Train("London",12,0,210,250,250,35);
 Train f2 = new Train("Tel-Aviv",16,50,210,250,250,45);
@@ -33,14 +49,18 @@ RailwayStation a1 = new RailwayStation();
 a1.addTrain(f1); a1.addTrain(f2); a1.addTrain(f3);a1.addTrain(f4);
 x=a1.mostExpensiveTicket()
 x.setDestination("dummy");
-x=a1.mostExpensiveTicket();
+x=a1.mostExpensiveTicket();
+
 
 Expected result:
-Train to Paris departs at 11:35. Train is not full.
-Student result:
-Train to dummy departs at 11:35. Train is not full.
+Train to Paris departs at 11:35. Train is not full.
 
-Error18_5:mostExpensiveTicket failed -first train aliasing:-4
+Student result:
+Train to dummy departs at 11:35. Train is not full.
+
+
+Error18_5:mostExpensiveTicket failed -first train aliasing:-4
+
 Original input is:
 Train f1 = new Train("London",12,0,210,250,250,120);
 Train f2 = new Train("Tel-Aviv",16,50,210,250,250,45);
@@ -50,17 +70,23 @@ RailwayStation a1 = new RailwayStation();
 a1.addTrain(f1); a1.addTrain(f2); a1.addTrain(f3);a1.addTrain(f4);
 x=a1.mostExpensiveTicket()
 x.setDestination("dummy");
-x=a1.mostExpensiveTicket();
+x=a1.mostExpensiveTicket();
+
 
 Expected result:
-Train to London departs at 12:00. Train is full.
+Train to London departs at 12:00. Train is full.
+
 Student result:
-Train to dummy departs at 12:00. Train is full.
-Check mostExpensiveTicket finished.
+Train to dummy departs at 12:00. Train is full.
 
-Check longestTrain started.
+Check mostExpensiveTicket finished.
 
-Error20_2:longestTrain failed - aliasing:
+
+Check longestTrain started.
+
+
+Error20_2:longestTrain failed - aliasing:
+
 Original input is:
 Train f1 = new Train("London",12,0,210,250,250,35);
 Train f2 = new Train("Tel-Aviv",16,50,250,250,250,45);
@@ -70,14 +96,18 @@ RailwayStation a1 = new RailwayStation();
 a1.addTrain(f1); a1.addTrain(f2); a1.addTrain(f3);a1.addTrain(f4);
 x=a1.longestTrain()
 x.setDestination("dummy");
-x=a1.longestTrain();
+x=a1.longestTrain();
+
 
 Expected result:
-Train to Tel-Aviv departs at 16:50. Train is full.
-Student result:
-Train to dummy departs at 16:50. Train is full.
+Train to Tel-Aviv departs at 16:50. Train is full.
 
-Error20_5:longestTrain failed - first train aliasing:
+Student result:
+Train to dummy departs at 16:50. Train is full.
+
+
+Error20_5:longestTrain failed - first train aliasing:
+
 Original input is:
 Train f1 = new Train("London",12,0,210,250,250,35);
 Train f2 = new Train("Tel-Aviv",16,50,210,250,250,45);
@@ -87,18 +117,26 @@ RailwayStation a1 = new RailwayStation();
 a1.addTrain(f1); a1.addTrain(f2); a1.addTrain(f3);a1.addTrain(f4);
 x=a1.longestTrain()
 x.setDestination("dummy");
-x=a1.longestTrain();
+x=a1.longestTrain();
+
 
 Expected result:
-Train to London departs at 12:00. Train is full.
+Train to London departs at 12:00. Train is full.
+
 Student result:
-Train to dummy departs at 12:00. Train is full.
-Check longestTrain finished.
+Train to dummy departs at 12:00. Train is full.
 
-Check toString started.
-Check toString finished.
+Check longestTrain finished.
 
-ùéí ìá ìî÷åîåú ùì ä-ALIASING
-ùìà áã÷ú åìëï äèñèø äåãéò òì ùâéàä.
-òáåãä èåáä îàåã!
-øåğéú
+
+Check toString started.
+
+Check toString finished.
+
+
+×©×™× ×œ×‘ ×œ××§×•××•×ª ×©×œ ×”-ALIASING
+×©×œ× ×‘×“×§×ª ×•×œ×›×Ÿ ×”×˜×¡×˜×¨ ×”×•×“×™×¢ ×¢×œ ×©×’×™××”.
+×¢×‘×•×“×” ×˜×•×‘×” ×××•×“!
+×¨×•× ×™×ª
+
+
